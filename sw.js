@@ -4,10 +4,10 @@
    KEINE Kundendaten: Die liegen in localStorage/IndexedDB und werden nie ueber fetch geladen.
    Alles, was nicht zur Shell gehoert (andere Hosts, POST, Anfragen mit Suchparametern ausser
    Navigation), geht unveraendert ans Netz und wird nicht gespeichert.
-   Update: Der Build ersetzt ccb49f4b16d5 durch einen Hash von index.html. Neue Version
+   Update: Der Build ersetzt 2161a021a369 durch einen Hash von index.html. Neue Version
    installiert sich im Hintergrund und wartet; die Seite zeigt "Есть новая версия · Обновить" und
    schickt auf Klick {type:'SKIP_WAITING'}. */
-const VERSION = 'ccb49f4b16d5';
+const VERSION = '2161a021a369';
 const CACHE = 'studio-shell-' + VERSION;
 const FONT_CACHE = 'studio-fonts-v1';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
